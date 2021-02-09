@@ -47,7 +47,7 @@ let Six = 1;
   
     //get text
     textOne = sentenceOne.textContent;
-    textTwo = sentenceToo.textContent;
+    textTwo = sentenceTwo.textContent;
     textThree = sentenceThree.textContent;
     textFour = sentenceFour.textContent;
     textFive = sentenceFive.textContent;
