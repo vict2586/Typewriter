@@ -65,7 +65,7 @@ let Six = 1;
     writeTextOne();
 
     //telles second function to start 20 sek later
-    setTimeout(startTwo, 20000);
+    setTimeout(startTwo, 10000);
 
     };
   
@@ -80,7 +80,7 @@ let Six = 1;
       sentenceOne.textContent = showtextOne;
       if (One < textOne.length) {
         One++;
-        setTimeout(writeTextOne, 300);
+        setTimeout(writeTextOne, 200);
       };
       
     };
@@ -95,7 +95,7 @@ let Six = 1;
         writeTextTwo();
 
         //telles third function to start 10 sek later
-        setTimeout(startThree, 10000);
+        setTimeout(startThree, 8000);
     };
 
 //tells what shall happen to the sentence
@@ -109,7 +109,7 @@ let Six = 1;
         sentenceTwo.textContent = showtextTwo;
         if (Two < textTwo.length) {
           Two++;
-          setTimeout(writeTextTwo, 300);
+          setTimeout(writeTextTwo, 200);
         };
   
     };
@@ -124,7 +124,7 @@ let Six = 1;
         writeTextThree();
 
         //telles fourth function to start 8 sek later
-        setTimeout(startFour, 8000);
+        setTimeout(startFour, 9000);
     };
 
 //tells what shall happen to the sentence    
@@ -138,7 +138,7 @@ let Six = 1;
         sentenceThree.textContent = showtextThree;
         if (Three < textThree.length) {
           Three++;
-          setTimeout(writeTextThree, 300);
+          setTimeout(writeTextThree, 200);
         };
   
     };
@@ -153,7 +153,7 @@ let Six = 1;
         writeTextFour();
 
         //telles fifth function to start 8 sek later
-        setTimeout(startFive, 8000);
+        setTimeout(startFive, 14000);
     };
 
 //tells what shall happen to the sentence    
@@ -167,7 +167,7 @@ let Six = 1;
         sentenceFour.textContent = showtextFour;
         if (Four < textFour.length) {
           Four++;
-          setTimeout(writeTextFour, 300);
+          setTimeout(writeTextFour, 200);
         };
   
     };
@@ -182,7 +182,7 @@ let Six = 1;
         writeTextFive();
 
         //telles sixth function to start 10 sek later
-        setTimeout(startSix, 10000);
+        setTimeout(startSix, 18000);
     };
 
 //tells what shall happen to the sentence
@@ -196,7 +196,7 @@ let Six = 1;
         sentenceFive.textContent = showtextFive;
         if (Five < textFive.length) {
           Five++;
-          setTimeout(writeTextFive, 300);
+          setTimeout(writeTextFive, 200);
         };
   
     };
